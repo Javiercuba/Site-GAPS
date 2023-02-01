@@ -9,7 +9,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="./../assets/img/favicon.png" rel="icon">
+   <link href="assets/img/GAPS/Logo GAPS (5).png" rel="icon">
     <link href="./../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- Google Fonts -->
     <link
@@ -94,7 +94,7 @@
                     <a href="../index.html">Home</a>
                   </li>
                   <li class="breadcrumb-item">
-                    <a href="../property-grid.html">Empreendimentos</a>
+                    <a href="../empreendimentos.html">Empreendimentos</a>
                   </li>
                   <li class="breadcrumb-item active" aria-current="page">
                     Jardim de Athenas
@@ -142,10 +142,6 @@
                         <li class="d-flex justify-content-between">
                           <strong>Preço:</strong>
                           <span> R$ 300.000,00</span>
-                        </li>
-                        <li class="d-flex justify-content-between">
-                          <strong>Localização:</strong>
-                          <span>Chicago, IL 606543</span>
                         </li>
                         <li class="d-flex justify-content-between">
                           <strong>Tipo de Propriedade:</strong>
@@ -219,12 +215,12 @@
                 <li class="nav-item">
                   <a class="nav-link" id="pills-plans-tab" data-bs-toggle="pill"
                     href="#pills-plans" role="tab" aria-controls="pills-plans"
-                    aria-selected="false">Floor Plans</a>
+                    aria-selected="false">Terreno/Planta</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="pills-map-tab" data-bs-toggle="pill"
                     href="#pills-map" role="tab" aria-controls="pills-map"
-                    aria-selected="false">Ubication</a>
+                    aria-selected="false">Localização</a>
                 </li>
               </ul>
               <div class="tab-content" id="pills-tabContent">
@@ -241,9 +237,9 @@
                 <div class="tab-pane fade" id="pills-map" role="tabpanel"
                   aria-labelledby="pills-map-tab">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1ses-419!2sve!4v1510329142834"
-                    width="100%" height="460" frameborder="0" style="border:0"
-                    allowfullscreen></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7681358.896776755!2d-50.72868429054438!3d-19.938579128634803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdd40c81ca8a29%3A0xc71db21260237313!2sCondo%20Athens%20Park%20Residence!5e0!3m2!1sen!2sbr!4v1675271185075!5m2!1sen!2sbr"
+                    width="100%" height="460" frameborder="0" style="border:0;"
+                    allowfullscreen=""></iframe>
                 </div>
               </div>
             </div>
@@ -251,13 +247,14 @@
               <div class="row section-t3">
                 <div class="col-sm-12">
                   <div class="title-box-d">
-                    <h3 class="title-d">Contact Agent</h3>
+                    <h3 class="title-d">Contato Vendedor</h3>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6 col-lg-4">
-                  <img src="assets/img/agent-4.jpg" alt="" class="img-fluid">
+                  <img src="./../assets/img/author-2.jpg" alt=""
+                    class="img-fluid">
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="property-agent">
@@ -270,20 +267,12 @@
                     </p>
                     <ul class="list-unstyled">
                       <li class="d-flex justify-content-between">
-                        <strong>Phone:</strong>
-                        <span class="color-text-a">(222) 4568932</span>
-                      </li>
-                      <li class="d-flex justify-content-between">
-                        <strong>Mobile:</strong>
-                        <span class="color-text-a">777 287 378 737</span>
+                        <strong>Telefone:</strong>
+                        <span class="color-text-a">(22) 4568932</span>
                       </li>
                       <li class="d-flex justify-content-between">
                         <strong>Email:</strong>
                         <span class="color-text-a">annabella@example.com</span>
-                      </li>
-                      <li class="d-flex justify-content-between">
-                        <strong>Skype:</strong>
-                        <span class="color-text-a">Annabela.ge</span>
                       </li>
                     </ul>
                     <div class="socials-a">
@@ -314,31 +303,52 @@
                 </div>
                 <div class="col-md-12 col-lg-4">
                   <div class="property-contact">
-                    <form class="form-a">
+                    <form action="https://formspree.io/f/moqzjpaq" method="post"
+                      role="form"
+                      class="php-email-form">
                       <div class="row">
-                        <div class="col-md-12 mb-1">
+                        <div class="col-md-6 mb-3">
                           <div class="form-group">
-                            <input type="text" class="form-control
-                              form-control-lg form-control-a" id="inputName"
-                              placeholder="Name *" required>
+                            <input type="text" name="name" class="form-control
+                              form-control-lg form-control-a" placeholder="Nome"
+                              required>
                           </div>
                         </div>
-                        <div class="col-md-12 mb-1">
+                        <div class="col-md-6 mb-3">
                           <div class="form-group">
-                            <input type="email" class="form-control
-                              form-control-lg form-control-a" id="inputEmail1"
-                              placeholder="Email *" required>
+                            <input name="email" type="email" class="form-control
+                              form-control-lg form-control-a"
+                              placeholder="Email"
+                              required>
                           </div>
                         </div>
-                        <div class="col-md-12 mb-1">
+                        <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <textarea id="textMessage" class="form-control"
-                              placeholder="Comment *" name="message" cols="45"
-                              rows="8" required></textarea>
+                            <input type="text" name="subject"
+                              class="form-control
+                              form-control-lg form-control-a"
+                              placeholder="Subject" required>
                           </div>
                         </div>
-                        <div class="col-md-12 mt-3">
-                          <button type="submit" class="btn btn-a">Send Message</button>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea name="message" class="form-control"
+                              name="message" cols="45" rows="8"
+                              placeholder="Mensagem" required></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12 my-3">
+                          <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Seu email foi enviado.
+                              Muito Obrigado!</div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                          <button type="submit" class="btn btn-a">Enviar
+                            Mensagem</button>
                         </div>
                       </div>
                     </form>
@@ -347,144 +357,105 @@
               </div>
             </div>
           </div>
-        </div>
-      </section><!-- End Property Single-->
+        </section><!-- End Property Single-->
 
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <section class="section-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <div class="widget-a">
-              <div class="w-header-a">
-                <h3 class="w-title-a text-brand">Institucional</h3>
-              </div>
-              <div class="w-body-a">
-                <p class="w-text-a color-text-a">
-                  A Destaque Imobiliária
-                </p>
-              </div>
-              <div class="w-footer-a">
-                <ul class="list-unstyled">
-                  <li class="color-a">
-                    <span class="color-text-a">Email: </span>
-                    administração@imobiliariacentraldecampos.com.br
-                  </li>
-                  <li class="color-a">
-                    <span class="color-text-a">Telefone: </span> (22)2722-7029 /
-                    (22)2733-5293
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4 section-md-t3">
-            <div class="widget-a">
-              <div class="w-header-a">
-                <h3 class="w-title-a text-brand">Serviços</h3>
-              </div>
-              <div class="w-body-a">
+      </main><!-- End #main -->
+      <a class="whatsapp" target="_blank"
+        href="https://api.whatsapp.com/send?phone=5522998384226">
+        <img src="./../assets/img/botão preto.png" alt="Contato via WhatsApp">
+      </a>
+      <section class="section-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <div class="widget-a">
+                <div class="w-header-a">
+                  <h3 class="w-title-a text-brand">Institucional</h3>
+                </div>
                 <div class="w-body-a">
+                  <p class="w-text-a color-text-a">
+                    A Destaque Imobiliária
+                  </p>
+                </div>
+                <div class="w-footer-a">
                   <ul class="list-unstyled">
-                    <li class="item-list-a">
-                      <i class="bi bi-chevron-right"></i> <a href="#">Financiamento
-                        e bancos</a>
+                    <li class="color-a">
+                      <span class="color-text-a">Email: </span>administração@imobiliariacentraldecampos.com.br
+                    </li>
+                    <li class="color-a">
+                      <span class="color-text-a">Telefone: </span>
+                      (22)2722-7029/(22)2733-5293
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-4 section-md-t3">
-            <div class="widget-a">
-              <div class="w-header-a">
-                <h3 class="w-title-a text-brand">Grupo GAPS</h3>
-              </div>
-              <div class="w-body-a">
-                <ul class="list-unstyled">
-                  <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">JHOMI
-                      IMOBILIÁRIA</a>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="nav-footer">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#">Home</a>
                   </li>
-                  <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">GAPS</a>
+                  <li class="list-inline-item">
+                    <a href="#">Sobre nós</a>
                   </li>
-                  <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">GAPSFIT</a>
+                  <li class="list-inline-item">
+                    <a href="#">Empreendimentos</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Contato</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="socials-a">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="bi bi-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="bi bi-instagram" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="bi bi-linkedin" aria-hidden="true"></i>
+                    </a>
                   </li>
                 </ul>
               </div>
+              <div class="copyright-footer">
+                <p class="copyright color-text-a">
+                  &copy; Copyright
+                  <span class="color-a">ImobiliariaCentral</span> All Rights
+                  Reserved.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <nav class="nav-footer">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">Sobre nós</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">Empreendimentos</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">Contato</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="socials-a">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="bi bi-facebook" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="bi bi-instagram" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="bi bi-linkedin" aria-hidden="true"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="copyright-footer">
-              <p class="copyright color-text-a">
-                &copy; Copyright
-                <span class="color-a">ImobiliariaCentral</span> All Rights
-                Reserved.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
 
 
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center
-      justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <div id="preloader"></div>
+     
 
-    <!-- Vendor JS Files -->
-    <script src="./../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="./../assets/vendor/php-email-form/validate.js"></script>
-    <script src="./../js/main.js"></script>
-    <!-- Template Main JS File -->
-    <script src="./../assets/js/main.js"></script>
+      <!-- Vendor JS Files -->
+      <script src="./../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="./../assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="./../assets/vendor/php-email-form/validate.js"></script>
+      <script src="./../js/main.js"></script>
+      <!-- Template Main JS File -->
+      <script src="./../assets/js/main.js"></script>
 
-  </body>
+    </body>
 
-</html>
+  </html>
