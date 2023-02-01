@@ -421,7 +421,7 @@ a:hover {
 
 .nav-arrow-a .owl-arrow .owl-nav {
   font-size: 1.8rem;
-  margin-top: -110px;
+  margin-top: 10px;
 }
 
 .nav-arrow-a .owl-arrow .owl-nav .owl-next {
@@ -1696,7 +1696,6 @@ a:hover {
 
 .card-box-ico {
   padding: 1rem 3rem 1rem 2.5rem;
-  border: 5px solid #d10e0e;
 }
 
 .card-box-ico span {

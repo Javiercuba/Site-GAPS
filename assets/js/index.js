@@ -14,7 +14,7 @@
       nome: "Athenas Park Residence",
       tipo: "Condomínio",
       endereco: "BOULEVARD SHOPPING CAMPOS",
-      imagem: "assets/img/ATHENAS-entrada.jpg",
+      imagem: "assets/img/Jardim_Athenas/ATHENAS-entrada.jpg",
     },
     {
       id: 2,
